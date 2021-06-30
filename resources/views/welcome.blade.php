@@ -1,0 +1,18 @@
+@extends('layouts.main')
+
+@section('content')
+    @include('partials.main.header.header')
+    @include('partials.main.hero.hero')
+    @include('partials.main.client.client')
+    @include('partials.main.about-us.about-us')
+    @include('partials.main.why-us.why-us')
+    @include('partials.main.skills.skills')
+    @include('partials.main.service.service')
+    @include('partials.main.cta.cta')
+    @include('partials.main.portofolio.portofolio')
+    @include('partials.main.team.team')
+    @include('partials.main.pricing.pricing')
+    @include('partials.main.questions.questions')
+    @include('partials.main.contact.contact')
+    @include('partials.main.footer.footer')
+@endsection
